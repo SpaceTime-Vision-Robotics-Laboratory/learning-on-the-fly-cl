@@ -257,7 +257,7 @@
         <h3>Semi-Automatic Labeling Pipeline</h3>
         <figure class="figure-centered">
           <!-- TODO: Replace with a better pipeline diagram this one is :-) -->
-          <img src="assets/figures/dataset/Labeling-Pipeline.png" alt="Semi-automatic labeling pipeline: GroundingSAM predictions filtered by confidence and IoU, followed by human review" loading="lazy">
+          <img src="assets/figures/dataset/Labeling-Pipeline.svg" alt="Semi-automatic labeling pipeline: GroundingSAM predictions filtered by confidence and IoU, followed by human review" loading="lazy">
           <figcaption>Semi-automatic annotation workflow. GroundingSAM produces pseudo-labels with 98.6% first-pass agreement before manual verification. Only ~200 out of 14,400 frames required edits.</figcaption>
         </figure>
 
@@ -359,7 +359,7 @@
         <h3>Continual Learning Pipeline</h3>
         <figure class="figure-centered">
           <!-- TODO: Replace with a better pipeline figure this one is again :-) -->
-          <img src="assets/figures/Continual-Learning-Tasks.png" alt="Diagram of the class-incremental learning pipeline showing sequential task training with replay buffer" loading="lazy">
+          <img src="assets/figures/Yolo_CL.png" alt="Diagram of the class-incremental learning pipeline showing sequential task training with replay buffer" loading="lazy">
           <figcaption>Class-incremental learning pipeline. For each new task, the learner trains on current task data plus a replay subset from prior tasks, evaluated on all seen tasks to measure plasticity and retention.</figcaption>
         </figure>
 
