@@ -494,10 +494,19 @@
             <figcaption>Method Comparison at 5% Replay</figcaption>
           </figure>
         </div>
-        <!-- # TODO: add performance trajectories for 25% and 50% -->
+        <div class="results-two-column">
+          <figure class="figure-centered">
+            <img src="assets/figures/results/Method-Comparison-25p.png" alt="Task-wise mAP50-95 for box detection and instance segmentation at 25% replay" loading="lazy">
+            <figcaption>Method Comparison at 25% Replay</figcaption>
+          </figure>
+          <figure class="figure-centered">
+            <img src="assets/figures/results/Method-Comparison-50p.png" alt="Task-wise mAP50-95 for box detection and instance segmentation at 50% replay" loading="lazy">
+            <figcaption>Method Comparison at 50% Replay</figcaption>
+          </figure>
+        </div>
         <p class="table-caption">
           <strong>Task-wise Performance Trajectories.</strong>
-          mAP<sub>50-95</sub> for box detection and instance segmentation at 10% (left) and 5% (right) replay.
+          mAP<sub>50-95</sub> for box detection and instance segmentation at 10% and 5% replay (top row), and 25% and 50% replay (bottom row).
           Na&iuml;ve fine-tuning exhibits severe forgetting on earlier tasks, while replay-based methods improve retention.
           <strong>FAR and MIR remain closest to the joint-training upper bound</strong> under these low-memory settings.
         </p>
