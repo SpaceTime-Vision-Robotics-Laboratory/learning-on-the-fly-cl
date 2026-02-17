@@ -29,7 +29,7 @@ This repository contains the source code and assets for the official project web
 ## Resources
 <!-- TODO: Update all links when available -->
 - [Paper (PDF)](#)
-- [arXiv](#)
+- [arXiv](https://arxiv.org/abs/2602.13440)
 - [Code](#)
 - [Dataset](https://huggingface.co/datasets/sebnae/UAV-IndoorCL)
 
@@ -49,9 +49,10 @@ which handles image compression and CSS/JS minification.
 ## Citation
 <!-- TODO: Update with full publication details when accepted -->
 ```bibtex
-@article{Nae_2025_LearningOnTheFly,
-    author    = {Nae, Sebastian-Ion and Barbu, Mihai-Eugen and Mocanu, Sebastian and Leordeanu, Marius},
-    title     = {Learning on the Fly: Replay-Based Continual Object Perception for Indoor Drones},
-    year      = {2025}
+@article{nae2026learningflyreplaybasedcontinual,
+    title   = {Learning on the Fly: Replay-Based Continual Object Perception for Indoor Drones},
+    author  = {Nae, Sebastian-Ion and Barbu, Mihai-Eugen and Mocanu, Sebastian and Leordeanu, Marius},
+    journal = {arXiv preprint arXiv:2602.13440},
+    year    = {2026}
 }
 ```
